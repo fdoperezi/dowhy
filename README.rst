@@ -456,6 +456,12 @@ Supported refutation methods
 Examples of using refutation methods are in the `Refutations <https://github.com/microsoft/dowhy/blob/master/docs/source/example_notebooks/dowhy_refuter_notebook.ipynb>`_ notebook. For an advanced refutation that uses a simulated dataset based on user-provided or learnt data-generating processes, check out the `Dummy Outcome Refuter <https://github.com/microsoft/dowhy/blob/master/docs/source/example_notebooks/dowhy_demo_dummy_outcome_refuter.ipynb>`_ notebook. 
 As a practical example, `this notebook <https://github.com/microsoft/dowhy/blob/master/docs/source/example_notebooks/dowhy_refutation_testing.ipynb>`_ shows an application of refutation methods on evaluating effect estimators for the Infant Health and Development Program (IHDP) and Lalonde datasets. 
 
+GCM-based inference (experimental)
+===================================
+
+Graphical causal model-based inference, or GCM-based inference for short, is an experimental addition to DoWhy. For
+details, check out the `documentation for the gcm sub-package <https://py-why.github.io/dowhy/gcm>`_.
+
 Citing this package
 ====================
 If you find DoWhy useful for your research work, please cite us as follows:
